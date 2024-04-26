@@ -88,7 +88,7 @@ reactions_bound_0 = [
 update_reaction_bounds(model, reactions_bound_10, reactions_bound_0)
 
 
-kcat_df, mw_df = read_excel_data("output.xlsx")  # Update this path
+kcat_df, mw_df = read_excel_data("Kcat_MW_100simulation_input.xlsx")  # Update this path
 
 phi_results = []
 all_fluxes = {}
